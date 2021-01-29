@@ -62,6 +62,7 @@ app.post("/register", (req, res) => {
         })
 })
 
+
 app.get("/getUser", (req, res) => {
     console.log(req.body)
 })
